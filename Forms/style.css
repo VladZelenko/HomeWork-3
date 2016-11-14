@@ -1,50 +1,60 @@
-		li {
-			list-style: none;
-		}
-		fieldset {
-			width: 55%;
-			margin-bottom: 15px;
-		}
-		fieldset ul {
-			padding: 0px;
-		}
-		fieldset ul li:first-child {
-			padding-bottom: 15px;
-		}
-		legend {
-			font-weight: bold;
-		}
-		input[type="text"] {
-			width: 250px;
-		}
-		#mail {
-			width: 250px;
-		}
-		.firstFormSet li {
-			padding: 5px;
-		}
-		.moreAboutMe {
-			margin: 0px;
-		}
-		.moreAboutMe li:first-child {
-			padding: 0px;
-		}
-		.spam li:first-child {
-			padding-bottom: 0px;
-		}
-		.spam li:nth-child(2) {
-			padding-bottom: 15px;
-		}
-		span {
-			font-weight: bold;
-			font-size: 25px;
-		}
-		.moreAboutMe input[type="text"] {
-			width: 150px;
-		}
-		textarea {
-			width: 380px;
-		}
-		.bottomFormSet {
-			margin-top: 0px;
-		}
+.top-block, fieldset {
+	margin: 15px;
+}
+.about-me {
+	font-weight: bold;
+	font-size: 26px;
+}
+.first-formSet li {
+	padding: 5px;
+}
+fieldset ul {
+	padding: 0px;
+}
+legend {
+	font-weight: bold;
+}
+li {
+	list-style: none;
+}
+input[type="text"] {
+	width: 250px;
+	border-radius: 2px;
+}
+.more-about-me {
+	margin-top: 0px;
+}
+.more-about-me input[type="text"], select#book {
+	width: 150px;
+}
+textarea {
+	margin-top: -15px;
+	margin-bottom: 15px;
+	width: 400px;
+	height: 150px;
+}
+select[name="position[]"] {
+	width: 150px;
+	height: 50px;
+}
+.list-head-name {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;	
+	font-weight: bold;
+}
+input[type="email"] {
+	width: 250px;
+}
+.heppy-end {
+	margin-top: -15px;
+}
+.spam, .text-email{
+	margin-bottom: 0px;
+}
+.click-submit {
+	margin-left: 15px;
+}
+#equipments {
+	margin-top: 15px;
+}
